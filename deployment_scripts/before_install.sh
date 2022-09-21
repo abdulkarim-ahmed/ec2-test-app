@@ -10,6 +10,6 @@ else
     echo "$FILE does not exist."
 fi
 cd /home/ec2-user/
-sudo rm -rf app
-sudo mkdir app
+sudo rm -rf ec2-test-app
+sudo mkdir ec2-test-app
 
