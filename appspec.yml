@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/ec2-test-app
+    destination: /home/ubuntu/ec2-test-app
 hooks:
   ApplicationStop:
     - location: deployment_scripts/stop_server.sh
